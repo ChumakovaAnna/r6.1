@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
+  position: relative;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px;
+
+  border: 1px solid #000
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.input label {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  color: #ff0000
+}
+
+.container {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  
+  border: 1px solid #000000;
+}
+
+.clockContainer {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 10px;
+
+  font-size: 20px;
+
+  border: 1px solid #000000;
+}
+
+.clockContainer:first-child {
+  margin-left: 0;
+}
+
+.clockName {
+  margin-bottom: 10px;
+
+  color:rgb(159, 11, 189);
+}
+
+.close {
+  text-align: end;
+  color: #ff0000;
+  font-weight: 700;
+
+  cursor: pointer;
 }
