@@ -23,8 +23,8 @@ export default function Clock({item, onClose}) {
       <div className="clockName">
         {item.name}
       </div>
-      <div className="clockName">
-        {item.zone}
+      <div className="clockZone">
+        Зона: {item.zone}
       </div>
       <div className="clock">
         {time.hours}:{time.minutes}:{time.seconds}

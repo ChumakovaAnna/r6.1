@@ -47,16 +47,25 @@
   margin-left: 0;
 }
 
-.clockName {
-  margin-bottom: 10px;
-
-  color:rgb(159, 11, 189);
-}
-
 .close {
   text-align: end;
   color: #ff0000;
   font-weight: 700;
+  font-size: 18px;
 
   cursor: pointer;
+}
+
+.clockName {
+  margin-bottom: 5px;
+
+  color:rgb(159, 11, 189);
+}
+
+.clockZone {
+  margin-bottom: 5px;
+
+  font-size: 14px;
+
+  color:rgb(131, 131, 131)
 }
