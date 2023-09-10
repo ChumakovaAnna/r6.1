@@ -25,7 +25,6 @@ function App() {
   const handleDelete = (id) => {
     setClocks(prevState => (prevState.filter(item => item.id !== id)));
   }
-  // console.log(clocks);
 
   return (
     <div className="App">

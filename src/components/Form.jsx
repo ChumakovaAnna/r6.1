@@ -32,7 +32,6 @@ export default function Form({onSubmit}) {
 
   const handleChange = (evt) => {
     setForm(prevForm => ({...prevForm, error: ''}));
-    console.log(form)
 
     const {name, value} = evt.target;
     
@@ -49,7 +48,6 @@ export default function Form({onSubmit}) {
     }
   
     setForm(prevForm => ({...prevForm, [name]: value}));
-    console.log(form)
   }
 
   return (
